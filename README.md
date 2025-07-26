@@ -1,5 +1,6 @@
 # codsoft_1
 GUI Calculator
+```python
 import tkinter as tk
 
 def click(event):
@@ -49,3 +50,5 @@ for i, row in enumerate(buttons):
         button.bind("<Button-1>", click)
 
 root.mainloop()
+
+```
